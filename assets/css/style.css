@@ -1,0 +1,279 @@
+/* Style Guide */
+:root {
+    /*base colors*/
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
+    /*colors*/
+    --color-gray-100: #0D0E11;
+    --color-gray-200: #16181D;
+    --color-gray-300: #292C34;
+    --color-gray-400: #878EA1;
+    --color-gray-500: #C0C4CE;
+    --color-gray-600: #E2E4E9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Asap", sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-gray-200);
+}
+
+header {
+    background-image: url("../img/bg/Background_Intro.png");
+}
+
+.content {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+/* About */
+.container-about {
+    width: 70%;
+    display: grid;
+    justify-items: center;
+}
+
+.container-about p.text-sm {
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 80px;
+}
+
+.container-icons a {
+    height: 40px;
+    padding: 16px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px
+}
+
+.container-icons img {
+    width: 20px;
+}
+
+header i {
+    font-size: 32px;
+}
+
+/* Projects */
+#projects .content {
+    padding: 72px 0px 144px 0px;
+}
+
+#projects .card {
+    border: 1px solid var(--color-gray-300);
+    padding: 12px;
+    
+}
+#services .card {
+    border: 1px solid var(--color-gray-200);
+    padding: 20px;
+}
+
+#projects .card:hover {
+    border: 1.5px solid var(--color-gray-400);
+}
+
+.card img {
+    max-width: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 16px 0px 8px 0px;
+}
+
+.card h3, .card p {
+    max-width: 300px;
+}
+
+/* Services */
+#services {
+    background-color: var(--color-gray-100);
+}
+
+#services .content {
+    padding: 88px 0px 120px 0px;
+}
+
+#services .card {
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 330px;
+    border: 1px solid var(--color-gray-200);
+}
+
+#services i {
+    font-size: 48px;
+}
+
+/* Footer */
+footer {
+    background-image: url("../img/bg/Background_Contacts.png");
+}
+
+footer .content {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+footer .container-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 48px;
+    width: 400px;
+    border-radius: 8px;
+    gap: 16px;
+}
+
+footer .social-button {
+    border: 1px solid var(--color-gray-300);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 10px 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    gap: 12px;
+}
+
+footer .social-button .ph-arrow-up-right {
+    justify-self: end;
+    color: var(--color-blue);
+}
+
+footer .social-button:hover {
+    border: 1.5px solid var(--color-blue);
+    color: var(--color-blue);
+}
+
+/* Typography */
+.title-lg {
+    font: bold 56px/120% "Asap", serif;
+}
+
+.title-md {
+    font: bold 24px/120% "Asap", serif;
+}
+
+.title-sm {
+    font: bold 16px/120% "Asap", serif;
+}
+
+.subtitle {
+    font: normal 20px/120% "Inconsolata", serif;
+}
+
+.text-md {
+    font: normal 16px/140% "Maven Pro", serif;
+}
+
+.text-sm {
+    font: normal 14px/140% "Maven Pro", serif;
+    max-width: 700px;
+}
+
+/* Colors */
+.color-red {
+    color: var(--color-red);
+}
+
+.color-purple {
+    color: var(--color-purple);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+
+/* Groups */
+header, footer {
+    min-height: 750px;
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    background-size: cover;
+    background-position: center;
+}
+
+#projects .container-cards, #services .container-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+#projects .content, #services .content {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+#projects .card, #services .card {
+    max-width: 330px;
+    border-radius: 12px;
+}
+
+.container-about p.subtitle, #projects .container-cards, #services .container-cards {
+    margin-top: 56px;
+}
+
+.title-md, .subtitle {
+    text-align: center;
+}
+
+.title-md, .text-md, .container-about h1 {
+    margin-top: 8px;
+}
+
+.title-md, .title-sm, .container-about h1 {
+    color: var(--color-gray-600);
+}
+
+.text-md, .text-sm, .container-about p.subtitle, .container-icons a, footer .social-button, footer .social-button span {
+    color: var(--color-gray-500);
+}
+
+.container-about p.text-sm, header i {
+    color: var(--color-gray-400);
+}
+
+.container-icons a, #projects .card, footer .social-button {
+    background-color: var(--color-gray-300);
+}
