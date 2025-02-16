@@ -1,19 +1,19 @@
-## Portfólio Dev 👩‍💻
+# Portfólio Dev 👩‍💻
 Este repositório contém a solução para o desafio prático "Portfólio Dev" da Formação Fullstack da Rocketseat, que consiste no desenvolvimento de um portfólio para desenvolvedores.
 
 ![](./assets/img/thumb.jpg)
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Frontend:** HTML e CSS
 
 
-### Protótipo
+## Protótipo
 
 O design do projeto pode ser acessado através do link: [Portfólio Dev - Figma](https://www.figma.com/community/file/1387080701963671866/portfolio-dev).
 
 
-### Funcionalidades
+## Funcionalidades
 
 - Criação de layouts com CSS;
 - Posicionamento de elementos;
@@ -21,11 +21,10 @@ O design do projeto pode ser acessado através do link: [Portfólio Dev - Figma]
 - Utilização de variáveis CSS;
 - Aplicação de pseudo-classes e pseudo-elementos.
 
-### Considerações
-O design do projeto pode ser acessado no Figma através do link: [Portfólio Dev](https://www.figma.com/community/file/1387080701963671866/portfolio-dev).
+## Considerações
 O desafio não envolvia a necessidade de trabalhar a responsividade do projeto.
 
-### Como Rodar o Projeto
+## Como Rodar o Projeto
 
 1. Clone o repositório:
    ```sh
@@ -34,6 +33,6 @@ O desafio não envolvia a necessidade de trabalhar a responsividade do projeto.
    ```
 2. Abra o arquivo `index.html` em seu navegador.
 
-### Licença
+## Licença
 
 Este projeto foi desenvolvido no módulo "Avançando no HTML e CSS" da [Formação Full Stack](https://www.rocketseat.com.br/formacao/fullstack) da Rocketseat
